@@ -5,7 +5,7 @@
   become: yes
 
   vars:
-    app_name: pytest
+    app_name: pytime
     version: v1
     image: "maniaque/{{ app_name }}:{{ version }}"
 
